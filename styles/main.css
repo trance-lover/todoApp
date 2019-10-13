@@ -1,0 +1,152 @@
+html, body {
+  width: 100%;
+
+  font-family: "HelveticaNeue-Roman", "Helvetica", sans-serif;
+  font-size: 62.5%;
+
+}
+
+body {
+  height: 100%;
+  font-size: 1.3rem;
+  color: #404040;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 10px;
+  color : #999;
+  vertical-align: middle;
+}
+
+.input-area {
+  width: 100%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 900;
+  text-align: center;
+}
+
+.page-title {
+	display: inline-block;
+}
+
+.mainContainer {
+	overflow-x: auto;
+	overflow-y: auto;
+    padding:  100px 30px 30px 30px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.table {
+  display: table;
+  table-layout: fixed;
+}
+
+.tableCell {
+  display: table-cell;
+}
+
+.tableRow {
+  display: table-row;
+  vertical-align: bottom;
+}
+
+.list {
+  background: #008080;
+  margin: 20px 5px 0px 5px;
+  padding: 4px 3px 3px;
+  position: relative;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.list-title {
+  position: relative;
+  padding: 3px 26px 2px 6px;
+  min-height: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: inline;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+  min-height: 19px;
+  min-width: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+
+.task-textarea {
+	height: 40px;
+	width: 293px;
+}
+
+.task-lists {
+  clear: both;
+  margin-bottom: 0;
+  min-height: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 4px 4px 1px;
+  z-index: 1;
+}
+
+.task-list {
+  background-color: #fff;
+  cursor: pointer;
+  margin-bottom: 5px;
+  max-width: 300px;
+  min-height: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+.edit-task-textarea {
+	margin: auto;
+    width: 286px;
+    height: 38px;
+}
+
+.task-details {
+  padding: 8px 46px 8px 8px;
+  position: relative;
+  z-index: 10;
+
+}
+
+.add-task-container {
+  box-sizing: border-box;
+  padding: 6;
+  margin-bottom: 6px;
+}
+
+.task-buttons {
+  position: absolute;
+  top: 20%;
+  right: 0px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none !important;
+}
