@@ -5,7 +5,8 @@
   3. Create, Edit and delete a task inside the list */
 
 
-//I  have used IIFE(Immediately Invoked Function Expression) which consists all my app code and returns 
+//I  have used IIFE(Immediately Invoked Function Expression) to observe closure in the code, this type of module 
+//is also known as Revealing Module. The following todoApp consists all my app code and returns 
 //only one function addList as a public method. I have created this to avoid global namespace collision  
 var todoApp = function () {
 
